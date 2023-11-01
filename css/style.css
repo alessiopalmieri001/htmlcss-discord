@@ -1,0 +1,171 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font */
+
+/* general */
+.container{
+    max-width:1000px;
+    margin: 0 auto;
+}
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.riga{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grey-background{
+    background-color: grey;
+}
+
+/* header */
+.logologin{
+    width: 25%;
+}
+.link{
+    width: 50%;
+}  
+.headertop .header-1-container > *{
+   padding: 10px;
+    
+}
+.headertop .header-1-container > .login-contenuto{
+    text-align: right;
+     
+ }
+ .headertop .header-1-container > .nav-bar{
+text-align: center;
+}
+.headertop .header-1-container > .nav-bar ul li {
+    display: inline-block;
+}
+.headerbottom{
+    padding:50px 0;
+}
+
+
+/* main */
+.colonna-70{
+    width: 70%;
+}
+.colonna-30{
+    width: 30%;
+}
+.dimensionamento{
+    padding: 40px 0;
+}
+
+
+/* footer*/
+.box1{
+    width: calc((100% / 6) * 2);
+}
+.box2{
+    width: calc((100% / 6) * 4);
+}
+footer .footer-top .riga{
+   padding:10px 0; 
+   
+}
+footer .footer-top .box2 .riga{
+    padding: -10px 0;
+}
+
+footer .footer-top .riga{
+    padding: 10px 0;
+}
+footer section .box2 .riga>*{
+    width: 25%;
+
+}
+hr{
+    margin-top: 30px;
+}
+.footer-bottom .copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* debug */
+
+.debug .headertop .riga > * {
+    border: 1px dashed black;
+}
+.debug .headertop {
+    background-color: #add8e6;
+    height: 60px;
+    padding: 10px 0;
+}
+.debug .headertop .riga{
+    background-color: #daa520;
+
+}
+
+.debug .headerbottom{
+    padding:50px 0;
+    background-color:blue;
+    }
+.debug .headerbottom .jumbotron{
+    background-color:pink ;
+    border: 1px dashed black;
+    min-height: 500px;
+
+
+}
+.debug main section .riga .colonna-70{
+    background-color: #1E90FF;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+.debug main section .riga .colonna-30{
+    background-color:pink;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+.debug main section .big-green{
+    background-color:green;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+.debug footer .footer-top{
+    background-color: #23272a;
+    min-height: 400px;
+}
+.debug footer .footer-top .riga{
+    
+    min-height: 300px;
+}
+.debug footer .footer-top .riga .box1{
+    background-color: #f08080;
+    border: 1px dashed black;
+}
+.debug footer .footer-top .riga .box2{
+    background-color: #20b2aa;
+    border: 1px dashed black;
+}
+
+.debug footer .footer-top .riga .box2 .riga>*{
+    border: 1px dashed white;
+}
+.debug footer .footer-bottom{
+    background-color: #23272a;
+    
+}
+.debug .copyright{
+    background-color:#7fffd4 ;
+    padding: 20px 0;
+}
+.debug .copyright > *{
+    border: 1px dashed black;
+    background-color:pink ;
+    padding: 5px;
+    
+}
