@@ -9,7 +9,7 @@
 
 /* general */
 .container{
-    max-width:1000px;
+    max-width:1200px;
     margin: 0 auto;
 }
 .container-small{
@@ -48,6 +48,9 @@ text-align: center;
 }
 .headerbottom{
     padding:50px 0;
+}
+.headerbottom{
+    background-image: url(img/jumbo.png);
 }
 
 
@@ -109,10 +112,10 @@ hr{
 
 }
 
-.debug .headerbottom{
+/* .debug .headerbottom{
     padding:50px 0;
     background-color:blue;
-    }
+    } */
 .debug .headerbottom .jumbotron{
     background-color:pink ;
     border: 1px dashed black;
