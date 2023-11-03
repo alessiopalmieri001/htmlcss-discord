@@ -61,6 +61,9 @@ h3{
     color: white;
     margin-top: 20px;
 }
+ul{
+    text-decoration: none;
+}
 
 /* header */
 .logologin{
@@ -173,6 +176,15 @@ footer .footer-top .riga{
 footer section .box2 .riga>*{
     width: 25%;
 
+}
+.footer-top .riga .box2 h4{
+    color:#7891e7 ;
+    font-size: 25px;
+}
+.footer-top .riga .box2 ul li a{
+    color: white ;
+    text-decoration:none;
+    padding: 10px;
 }
 hr{
     margin-top: 30px;
