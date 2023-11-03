@@ -24,6 +24,22 @@
 .grey-background{
     background-color: grey;
 }
+.bottone{
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px ;
+    display: inline-block;
+    text-decoration: none;
+}
+.bianco{
+    background-color: white;
+    color:black ;
+}
+.nero{
+    background-color: #23272a;
+    color: white;
+}
+
 
 /* header */
 .logologin{
@@ -31,7 +47,12 @@
 }
 .link{
     width: 50%;
-}  
+   
+} 
+.headertop{
+    height: 60px;
+    padding: 10px 0;
+} 
 .headertop .header-1-container > *{
    padding: 10px;
     
@@ -46,12 +67,31 @@ text-align: center;
 .headertop .header-1-container > .nav-bar ul li {
     display: inline-block;
 }
+.headertop .header-1-container > .nav-bar ul li a{
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+}
 .headerbottom{
     padding:50px 0;
+    background-image: url(../img/jumbo.png);
+    
 }
-.headerbottom{
-    background-image: url(img/jumbo.png);
+.container-small{
+    
 }
+.jumbotron{
+    min-height: 500px;
+
+}
+.jumbotron > *{
+    text-align: center;
+}
+.jumbotron .bottone{
+   
+}
+
 
 
 /* main */
@@ -99,27 +139,26 @@ hr{
 
 /* debug */
 
-.debug .headertop .riga > * {
+ .debug .headertop .riga > * {
     border: 1px dashed black;
 }
 .debug .headertop {
     background-color: #add8e6;
-    height: 60px;
-    padding: 10px 0;
+   
 }
 .debug .headertop .riga{
     background-color: #daa520;
 
-}
+} 
 
-/* .debug .headerbottom{
+.debug .headerbottom{
     padding:50px 0;
     background-color:blue;
-    } */
-.debug .headerbottom .jumbotron{
+    } 
+ .debug .headerbottom .jumbotron{
     background-color:pink ;
     border: 1px dashed black;
-    min-height: 500px;
+    
 
 
 }
@@ -172,3 +211,4 @@ hr{
     padding: 5px;
     
 }
+ 
