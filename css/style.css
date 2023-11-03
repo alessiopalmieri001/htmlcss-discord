@@ -30,6 +30,7 @@
     border-radius: 20px ;
     display: inline-block;
     text-decoration: none;
+    color: black;
 }
 .bianco{
     background-color: white;
@@ -39,11 +40,26 @@
     background-color: #23272a;
     color: white;
 }
+p{
+    font-size: 20px;
+    color: white;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
 
 
 /* header */
 .logologin{
     width: 25%;
+    display: flex;
+    align-items: center;
+    
+}
+.login-contenuto{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 .link{
     width: 50%;
@@ -52,15 +68,13 @@
 .headertop{
     height: 60px;
     padding: 10px 0;
+    background-color: #255ee9;
 } 
 .headertop .header-1-container > *{
    padding: 10px;
     
 }
-.headertop .header-1-container > .login-contenuto{
-    text-align: right;
-     
- }
+
  .headertop .header-1-container > .nav-bar{
 text-align: center;
 }
@@ -76,19 +90,25 @@ text-align: center;
 .headerbottom{
     padding:50px 0;
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
     
 }
-.container-small{
-    
-}
+
 .jumbotron{
     min-height: 500px;
+    text-align: center;
+    padding: 100px 0;
 
 }
-.jumbotron > *{
-    text-align: center;
+h1{
+    font-size: 40px;
+    margin: 30px 0;
+    color: white;
 }
-.jumbotron .bottone{
+
+.headerbottom .jumbotron div:first-of-type{
+    margin-right :15px ;
    
 }
 
@@ -139,7 +159,7 @@ hr{
 
 /* debug */
 
- .debug .headertop .riga > * {
+/*  .debug .headertop .riga > * {
     border: 1px dashed black;
 }
 .debug .headertop {
@@ -149,19 +169,19 @@ hr{
 .debug .headertop .riga{
     background-color: #daa520;
 
-} 
+}  */
 
-.debug .headerbottom{
+/* .debug .headerbottom{
     padding:50px 0;
     background-color:blue;
     } 
  .debug .headerbottom .jumbotron{
     background-color:pink ;
     border: 1px dashed black;
-    
+     */
 
 
-}
+
 .debug main section .riga .colonna-70{
     background-color: #1E90FF;
     border: 1px dashed black;
