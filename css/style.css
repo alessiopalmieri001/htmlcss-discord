@@ -53,6 +53,14 @@ h2{
 .font-black{
     color: black;
 }
+h3{
+    font-size: 30px;
+}
+.celeste{
+    background-color: #7289da;
+    color: white;
+    margin-top: 20px;
+}
 
 /* header */
 .logologin{
