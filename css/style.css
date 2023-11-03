@@ -22,7 +22,7 @@
     flex-wrap: wrap;
 }
 .grey-background{
-    background-color: grey;
+    background-color: #f6f6f6;
 }
 .bottone{
     padding: 10px;
@@ -46,7 +46,13 @@ p{
     line-height: 28px;
     margin-bottom: 20px;
 }
-
+h2{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.font-black{
+    color: black;
+}
 
 /* header */
 .logologin{
@@ -107,6 +113,7 @@ h1{
     color: white;
 }
 
+
 .headerbottom .jumbotron div:first-of-type{
     margin-right :15px ;
    
@@ -114,15 +121,26 @@ h1{
 
 
 
+
 /* main */
 .colonna-70{
     width: 70%;
+    min-height: 400px;
 }
 .colonna-30{
     width: 30%;
+    min-height: 400px;
+    padding: 30px 0;
 }
 .dimensionamento{
     padding: 40px 0;
+}
+main img {
+    max-width: 100%;
+}
+main section .big-green{
+   text-align: center;
+    
 }
 
 
@@ -182,7 +200,7 @@ hr{
 
 
 
-.debug main section .riga .colonna-70{
+/* .debug main section .riga .colonna-70{
     background-color: #1E90FF;
     border: 1px dashed black;
     min-height: 400px;
@@ -191,12 +209,12 @@ hr{
     background-color:pink;
     border: 1px dashed black;
     min-height: 400px;
-}
-.debug main section .big-green{
+} */
+/* .debug main section .big-green{
     background-color:green;
     border: 1px dashed black;
     min-height: 400px;
-}
+} */
 .debug footer .footer-top{
     background-color: #23272a;
     min-height: 400px;
